@@ -111,7 +111,7 @@
                 </executions>
                 <configuration>
                     <!--docker宿主机的ip，要为docker开通tcp访问才有效-->
-                    <dockerHost>http://localhost:2375</dockerHost>
+                    <dockerHost>http://geochat-ecs.local:2375</dockerHost>
                     <!--指定生成的镜像名,这里是我们的作者名+项目名+版本号-->
                     <imageName>geochat/eureka:${project.version}</imageName>
                     <!--指定标签 这里指定的是镜像的版本，我们默认版本是latest-->
@@ -165,19 +165,19 @@
         <repository>
             <id>geochat</id>
             <name>geochat</name>
-            <url>http://localhost:65000/repository/geochat/</url>
+            <url>http://geochat-ecs.local:65000/repository/geochat/</url>
         </repository>
         <snapshotRepository>
             <id>geochat-snapshots</id>
             <name>geochat snapshots</name>
-            <url>http://localhost:65000/repository/geochat-snapshots/</url>
+            <url>http://geochat-ecs.local:65000/repository/geochat-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
     <repositories>
         <repository>
             <id>geochat</id>
             <name>geochat</name>
-            <url>http://localhost:65000/repository/geochat/</url>
+            <url>http://geochat-ecs.local:65000/repository/geochat/</url>
             <releases>
                 <enabled>true</enabled>
                 <updatePolicy>always</updatePolicy>
@@ -190,7 +190,7 @@
         <repository>
             <id>geochat-snapshots</id>
             <name>geochat-snapshots</name>
-            <url>http://localhost:65000/repository/geochat-snapshots/</url>
+            <url>http://geochat-ecs.local:65000/repository/geochat-snapshots/</url>
             <releases>
                 <enabled>true</enabled>
                 <updatePolicy>always</updatePolicy>
