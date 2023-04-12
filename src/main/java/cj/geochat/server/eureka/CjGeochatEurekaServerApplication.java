@@ -1,4 +1,4 @@
-package cj.geochat.eureka.server;
+package cj.geochat.server.eureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

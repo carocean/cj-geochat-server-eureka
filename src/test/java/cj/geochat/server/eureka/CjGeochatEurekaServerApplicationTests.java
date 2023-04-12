@@ -1,4 +1,4 @@
-package cj.geochat.eureka.server;
+package cj.geochat.server.eureka;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
