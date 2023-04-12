@@ -1,11 +1,11 @@
-package cj.geochat.eureka.server;
+package cj.geochat.server.eureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @EnableEurekaServer
-@SpringBootApplication(scanBasePackages = "cj.geochat.eureka.server")
+@SpringBootApplication(scanBasePackages = "cj.geochat.server.eureka")
 public class CjGeochatEurekaServerApplication {
 
     public static void main(String[] args) {

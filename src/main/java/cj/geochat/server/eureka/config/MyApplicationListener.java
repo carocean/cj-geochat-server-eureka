@@ -1,4 +1,4 @@
-package cj.geochat.eureka.server.config;
+package cj.geochat.server.eureka.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.ApplicationEvent;

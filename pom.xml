@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>cj.geochat</groupId>
-    <artifactId>cj-geochat-eureka-server</artifactId>
+    <artifactId>cj-geochat-server-eureka</artifactId>
     <version>${project.version}</version>
-    <name>cj-geochat-eureka-server</name>
-    <description>cj-geochat-eureka-server</description>
+    <name>cj-geochat-server-eureka</name>
+    <description>cj-geochat-server-eureka</description>
     <properties>
         <java.version>17</java.version>
         <project.version>0.0.1-SNAPSHOT</project.version>
